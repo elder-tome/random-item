@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-surface-background font-sans text-text-500 leading-[1.1875rem]
+}
+
+h1 {
+  @apply text-4xl font-bold leading-[2.75rem]
+}
+
+h2 {
+  @apply text-2xl font-medium leading-[1.8125rem]
+}
